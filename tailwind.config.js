@@ -17,7 +17,11 @@ module.exports = {
       fontFamily: {
         'poppins' : ['Poppins'],
         'roboto': ['Roboto']
-      }
+      },
+      colors:{
+        primary :'#451952',
+
+      },
 
 
 

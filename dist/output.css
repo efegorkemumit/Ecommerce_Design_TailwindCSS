@@ -570,14 +570,19 @@ video {
   height: 4rem;
 }
 
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
 .bg-slate-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
 }
 
-.bg-slate-900 {
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: rgb(69 25 82 / var(--tw-bg-opacity));
 }
 
 .font-poppins {
@@ -586,4 +591,9 @@ video {
 
 .font-roboto {
   font-family: Roboto;
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(69 25 82 / var(--tw-text-opacity));
 }
