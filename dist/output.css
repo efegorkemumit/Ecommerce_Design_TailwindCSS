@@ -534,9 +534,50 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .bg-slate-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
 .font-poppins {
