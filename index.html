@@ -112,12 +112,6 @@
                                  </a>
 
 
-
-
-
-
-
-
                                  </div>
 
                                 <!------All Categories END-->
@@ -144,14 +138,71 @@
 
          </nav>
 
+          <!------Slider start-->
+          <div class="slider">
 
+            <div class="slide w-full object-cover" style="background-image: url('img/slider/banner1.png');">
+                <div class="container pt-28 pb-18 md:pb-36 lg:pb-54 xl:pb-70">
+                   <h1 class="text-4xl xl:text-6xl md:text-5xl text-gray-900 font-semibold mb-4"> Best Collection </h1>
+                   <p class="text-base text-gray-700 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab, quibusdam saepe iste nemo provident.</p>
+                   <div class="mt-12">
+                    <a class="bg-primary border border-primary
+                     text-white px-8 py-3 font-medium rounded-xl uppercase hover:bg-red-950 transition " href="shop.html">Shop now
 
+                    </a>
 
+                </div>
+                
+                </div>
+            
+            </div>
 
+            <div class="slide w-full object-cover" style="background-image: url('img/slider/banner2.png');">
+                <div class="container pt-28 pb-18 md:pb-36 lg:pb-54 xl:pb-70">
+                   <h1 class="text-4xl xl:text-6xl md:text-5xl text-gray-900 font-semibold mb-4"> True Collection </h1>
+                   <p class="text-base text-gray-700 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ab, quibusdam saepe iste nemo provident.</p>
+                   <div class="mt-12">
+                    <a class="bg-primary border border-primary
+                     text-white px-8 py-3 font-medium rounded-xl uppercase hover:bg-red-950 transition " href="shop.html">Shop now
 
-           <!------end Navbar-->
+                    </a>
+
+                </div>
+                
+                </div>
+            
+            </div>
+
+          </div>
 
        
- 
+       
+          
+         <!------Slider End-->
+
+
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script>
+            $(document).ready(function () {
+              var slides = $(".slide");
+              var currentSlide = 0;
+          
+              function showSlide(index) {
+                slides.hide();
+                slides.eq(index).show();
+              }
+          
+              function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+              }
+          
+              showSlide(currentSlide);
+          
+              setInterval(nextSlide, 5000); 
+            });
+          </script>
+
+
 </body>
 </html>
