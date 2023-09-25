@@ -11,16 +11,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <h2 class="bg-slate-950">Test</h2>
+   
 
-    <h1 class="font-roboto"> Test</h1>
-    <h1 class="font-poppins"> Test</h1>
+    <!------HEADER START-->
 
-    <div class="container h-16 bg-slate-900">
-        a
-    </div>
-    <h1 class="text-primary"> Test</h1>
-    <div class="bg-primary"> Test</div>
+    <header class="py-4 shadow-xl bg-purple-50 lg:bg-white">
+
+        <div class="container flex items-center justify-between">
+                <!------LOGO START-->
+                <a href="">
+                    <img src="img/logo.png" class="h-14" />
+                </a>
+
+                <div class="w-full xl:max-w-xl lg:max-w-lg lg:flex relative">
+                    <span class="absolute left-4 top-3 text-lg text-gray-700">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="text" class="w-full pl-12 border border-r-0 border-primary py-3 px-3 rounded-xl shadow-sm focus:ring-primary" placeholder="Search...">
+                    <button type="submit" class="bg-primary text-white border border-primary px-8 font-medium rounded-xl hover:bg-transparent hover:text-primary transition">Search</button>
+
+
+                </div>
+                            
+                 <!------LOGO END-->
+
+        </div>
+
+    </header>
+
+
+       <!------HEADER END-->
+ 
 </body>
 </html>
