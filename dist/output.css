@@ -534,12 +534,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .bg-slate-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+}
+
+.font-poppins {
+  font-family: Poppins;
+}
+
+.font-roboto {
+  font-family: Roboto;
 }
