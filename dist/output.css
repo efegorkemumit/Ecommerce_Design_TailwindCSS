@@ -895,6 +895,14 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1008,12 +1016,24 @@ video {
   padding-bottom: 4rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-roboto {
   font-family: Roboto;
+}
+
+.font-poppins {
+  font-family: Poppins;
 }
 
 .text-2xl {
@@ -1205,6 +1225,10 @@ video {
 .hover\:bg-red-950:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(69 10 10 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-opacity-40:hover {
+  --tw-bg-opacity: 0.4;
 }
 
 .hover\:text-primary:hover {
