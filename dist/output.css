@@ -618,8 +618,20 @@ video {
   bottom: 0px;
 }
 
+.right-3 {
+  right: 0.75rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .z-50 {
   z-index: 50;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .mx-auto {
@@ -789,6 +801,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-72 {
+  width: 18rem;
 }
 
 .flex-grow {
@@ -1075,6 +1091,10 @@ video {
   --tw-bg-opacity: 0.1;
 }
 
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1217,6 +1237,14 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {

@@ -146,10 +146,10 @@
 
              <!------Mobile Menu Start-->
 
-             <div class="lg:hidden flex z-50 fixed w-full border-t border-gray-900 shadow-xl bg-white py-3 bottom-0 justify-around items-start px-6">
+             <div class="lg:hidden flex z-40 fixed w-full border-t border-gray-900 shadow-xl bg-white py-3 bottom-0 justify-around items-start px-6">
 
                 <a href="#" class="block text-center text-gray-950 hover:text-primary transition relative">
-                    <div class="text-2xl">
+                    <div class="text-2xl" id="menuBar">
                         <i class="fa-solid fa-bars"></i>
                     </div>
 
@@ -188,8 +188,37 @@
 
                   <!------END Mobile Menu-->
 
+                        <!------Start Mobile Menu Bar-->
+
+                        <div class="fixed left-0 top-0 w-full h-full z-50 bg-black bg-opacity-30  shadow hidden" id="mobileMenu">
+                            <div class="absolute left-0 top-0 w-72 h-full z-50 bg-white shadow-md">
+                                <div class="text-gray-600 hover:text-primary text-lg absolute right-3 top-3 cursor-pointer" id="closeMenu">
+
+                                    <i class="fa-solid fa-xmark"></i>
+
+                                </div>
+
+                                <h3 class="text-xl pt-6 pl-4 font-roboto text-gray-700 font-semibold"> Menu</h3>
+
+                            </div>
+                        </div>
+                         <!------END Mobile Menu Bar-->
 
 
+<script>
+     let menuBar = document.querySelector('#menuBar')
+     let mobileMenu = document.querySelector('#mobileMenu')
+     let closeMenu = document.querySelector('#closeMenu')
+
+     menuBar.addEventListener('click', function(){
+        mobileMenu.classList.remove('hidden')
+     })
+     closeMenu.addEventListener('click', function(){
+        mobileMenu.classList.add('hidden')
+     })
+
+
+</script>
 
 
           <!------Slider start-->
