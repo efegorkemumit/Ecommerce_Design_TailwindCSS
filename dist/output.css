@@ -847,6 +847,52 @@ h1, h2, h3, h4, h5, h6 {
   width: 6rem;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[18rem\] {
+  width: 18rem;
+}
+
+.w-\[30rem\] {
+  width: 30rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
+}
+
+.w-\[20rem\] {
+  width: 20rem;
+}
+
+.w-\[10rem\] {
+  width: 10rem;
+}
+
+.w-\[96\] {
+  width: 96;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1162,6 +1208,11 @@ h1, h2, h3, h4, h5, h6 {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pb-12 {
@@ -1517,8 +1568,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
+  .md\:static {
+    position: static;
+  }
+
   .md\:absolute {
     position: absolute;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:grid {
@@ -1527,6 +1586,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:grid-cols-2 {
