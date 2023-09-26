@@ -843,6 +843,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 15rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -1487,8 +1491,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 576px) {
+  .sm\:static {
+    position: static;
+  }
+
+  .sm\:absolute {
+    position: absolute;
+  }
+
+  .sm\:h-full {
+    height: 100%;
+  }
+
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:w-8 {
+    width: 2rem;
   }
 
   .sm\:grid-cols-2 {
