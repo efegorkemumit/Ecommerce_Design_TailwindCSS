@@ -581,6 +581,14 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.color-selector input:checked + label {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(226 24 24 / var(--tw-ring-opacity));
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -763,6 +771,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 1.25rem;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
 .h-9 {
   height: 2.25rem;
 }
@@ -775,16 +787,16 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
-.h-7 {
-  height: 1.75rem;
-}
-
 .w-5 {
   width: 1.25rem;
 }
 
 .w-64 {
   width: 16rem;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .w-72 {
@@ -803,10 +815,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
 .flex-grow {
   flex-grow: 1;
 }
@@ -817,6 +825,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -847,6 +859,10 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0.25rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -861,10 +877,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -936,6 +948,10 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgb(107 114 128 / var(--tw-divide-opacity));
 }
 
+.overflow-auto {
+  overflow: auto;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -976,6 +992,11 @@ h1, h2, h3, h4, h5, h6 {
   border-top-width: 1px;
 }
 
+.border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
 .border-gray-500 {
   --tw-border-opacity: 1;
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
@@ -989,11 +1010,6 @@ h1, h2, h3, h4, h5, h6 {
 .border-primary {
   --tw-border-opacity: 1;
   border-color: rgb(226 24 24 / var(--tw-border-opacity));
-}
-
-.border-gray-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .bg-black {
