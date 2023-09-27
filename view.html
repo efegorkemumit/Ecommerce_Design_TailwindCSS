@@ -240,9 +240,74 @@
 
 
 
+<!------start Product view  -->
+
+<div class="container pt-4 pb-6 grid lg:grid-cols-2 gap-6">
+    <div>
+
+        <div>
+            <img id="main-img" src="img/product/shoes-1.png" class="w-full" />
+        </div>
+
+        <div class="grid grid-cols-5 gap-4 mt-4">
+            <div>
+                <img src="img/product/shoes-1.png" class="single-img cursor-pointer border border-primary w-full" />
+            </div>
+            <div>
+                <img src="img/product/shoes-2.png" class="single-img cursor-pointer border  w-full" />
+            </div>
+            <div>
+                <img src="img/product/shoes-3.png" class="single-img cursor-pointer border  w-full" />
+            </div>
+            <div>
+                <img src="img/product/shoes-4.png" class="single-img cursor-pointer border  w-full" />
+            </div>
+            <div>
+                <img src="img/product/shoes-5.png" class="single-img cursor-pointer border  w-full" />
+            </div>
+    
 
 
 
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<!------start Product view  -->
+
+<script>
+    let mainImg =document.getElementById('main-img')
+    let imgBars =document.getElementsByClassName('single-img')
+
+
+    for(let imgBar of imgBars){
+        imgBar.addEventListener('click', function(){
+            clearActive()
+            let imgPath = this.getAttribute('src')
+            mainImg.setAttribute('src',imgPath)
+            this.classList.add('border-primary')
+
+
+        })
+
+    }
+
+
+    function clearActive(){
+        for(let imgBar of imgBars)
+        {
+            imgBar.classList.remove('border-primary')
+        }
+    }
+
+
+
+
+</script>
 
 
 
