@@ -468,6 +468,37 @@
         <p class="pt-7">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat explicabo atque, rerum temporibus veniam accusamus hic quam deserunt quia eum consectetur dicta illum facere enim at exercitationem nobis magni officiis totam tempora dolor adipisci incidunt cupiditate. Quidem voluptas minus atque error qui odit nobis labore laudantium vero cumque, similique soluta earum. Officia ullam sed nisi nesciunt voluptas alias minus facere fuga, iusto et in quas deleniti soluta magni cumque aliquam enim dolore quaerat sapiente iste dolores iure ea! Cum magnam, voluptates et possimus architecto vero excepturi! Iusto odio veritatis quos, eaque molestias eos exercitationem aut? Dolore totam vel aliquid dolores.
         </p>
+
+        <div class="mt-4">
+            <h3 class="text-gray-700 mb-2 text-lg">Quantity</h3>
+            <div class="flex border border-gray-500 text-gray-600 divide-x divide-gray-500 w-max">
+                <div class="h-7 w-7 text-xl flex items-center justify-center cursor-pointer" onclick="decr()" > - </div>
+                <div class="h-7 w-7 text-2xl flex items-center justify-center " id="quantity"> 1 </div>
+                <div class="h-7 w-7 text-xl flex items-center justify-center cursor-pointer" onclick="incr()"> + </div>
+
+            </div>
+
+          
+
+
+        </div>
+
+        <div class="flex gap-3 border-b border-gray-200 pb-5 mt-6">
+            <a href="#" class="bg-primary border border-primary text-white px-10 py-4 
+            hover:bg-transparent hover:text-primary transition flex items-center font-medium rounded-lg uppercase">
+            <span class="mr-3"><i class="fa-solid fa-cart-shopping"></i> 
+            </span> 
+            Add to Cart
+            </a>
+           
+            <a href="" class="bg-second border border-gray-950 text-white px-10 py-4 
+            hover:bg-primary hover:text-white transition flex items-center font-medium rounded-lg uppercase">
+            <span class="mr-3"><i class="fa-solid fa-heart"></i> 
+            </span>   Whishlist
+            </a>
+
+
+        </div>
        
 
         
@@ -682,6 +713,22 @@
             
             </script>
 
+<script>
+    let quantity = 1;
+
+    function decr(){
+        if(quantity>1)
+        quantity--
+        document.getElementById('quantity').innerText = quantity;
+    }
+
+    function incr(){
+        quantity++
+        document.getElementById('quantity').innerText = quantity;
+    }
+
+
+</script>
 
 </body>
 </html>
