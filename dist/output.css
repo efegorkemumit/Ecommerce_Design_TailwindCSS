@@ -1291,6 +1291,21 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-stone-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 211 209 / var(--tw-bg-opacity));
+}
+
+.bg-stone-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
 }
@@ -1331,6 +1346,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-10 {
@@ -1508,6 +1527,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .pr-12 {
   padding-right: 3rem;
+}
+
+.pr-20 {
+  padding-right: 5rem;
 }
 
 .text-center {
