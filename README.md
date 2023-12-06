@@ -27,7 +27,7 @@
 
 
 # Kurs ve Proje Önizlemesi için
-Link : https://www.udemy.com/course/etik-hacker-sql-injection-sfrdan-master-seviyesine/
+Link :  https://www.udemy.com/course/sfrdan-uygulamal-frontend-egitimi-html-tailwindcss-js/
 
 # İndirimli kupon linklerim için 
 
@@ -39,13 +39,12 @@ Welcome to the GitHub repository for the projects covered in the  on Udemy.
 
 ## Udemy Course Details
 
-For in-depth details, lectures, and enrollment in the course, visit [Udemy Course Link](#).
+For in-depth details, lectures, and enrollment in the course, visit 
 
 ## Project Previews
 
 Below, you'll find a brief preview of the projects included in this repository:
-https://www.udemy.com/course/etik-hacker-sql-injection-sfrdan-master-seviyesine/
-
+ https://www.udemy.com/course/sfrdan-uygulamal-frontend-egitimi-html-tailwindcss-js/
 
 Happy learning!
 
